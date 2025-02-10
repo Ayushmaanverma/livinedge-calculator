@@ -13,8 +13,7 @@ export default function App() {
   return (
     <div className="app-container">
       {step === 0 && <StartScreen onStart={() => setStep(1)} />}
-      {step === 1 && <Quiz 
-        onComplete={(finalScore, answers) => {
+      {step === 1 && <Quiz onComplete={(finalScore, answers) => {
           setScore(finalScore);
           setResponses(answers);
           setStep(2);
