@@ -1,7 +1,7 @@
 {
   "name": "livinedge-calculator",
   "version": "1.0.0",
-  "homepage": "https://yourusername.github.io/livinedge-calculator",
+  "homepage": "https://Ayushmaanverma.github.io/livinedge-calculator",
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
